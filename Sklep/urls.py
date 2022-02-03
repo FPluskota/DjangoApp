@@ -23,4 +23,8 @@ urlpatterns = [
     path('', index, name='index'),
     path('kategoria/<id>/', kategoria, name='kategoria'),
     path('produkt/<id>/', produkt, name='produkt'),
+
 ]
+admin.site.site_header = "Panel zarządzania sklepem z zegarkami"
+admin.site.site_title = "Sklep Admin Portal"
+admin.site.index_title = "Witaj w swoim sklepie"
